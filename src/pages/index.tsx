@@ -9,7 +9,7 @@ import {
     ProfissionaisPaper,
     ProfissionaisContainer,
 } from "@styles/pages/index.style";
-import useIndex from "data/hooks/useIndex.page.ts";
+import useIndex from "data/hooks/pages/useIndex.page";
 
 const Home: NextPage = () => {
     const { cep, setCep } = useIndex();
